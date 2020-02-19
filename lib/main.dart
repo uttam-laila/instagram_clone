@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/pages/profile.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
         primaryColorDark: Colors.black,
         primaryColor: Colors.black,
       ),
-      home: MyHomePage(title: 'Instagram Clone'),
+      home: Profile(),
     );
   }
 }
